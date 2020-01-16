@@ -1,133 +1,491 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<title>Coming Soon 1</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
-</head>
-<body>
+  <head>
+    <title>Sonytal. El lugar de la transformación latina.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700, 900|Vollkorn:400i" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" id="home-section">
+  
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner" >
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href="index.html"><img src="images/logo_hr_up.png" height="50px" alt="" title="" /></a></h1>
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Profesional</a></li>
+                <li class="has-children">
+                  <a href="#about-section" class="nav-link">Crecimiento</a>
+                  <ul class="dropdown">
+                    <li><a href="#trainers-section" class="nav-link">Trainers</a></li>
+                    <li><a href="#pricing-section" class="nav-link">Pricing</a></li>
+                    <li><a href="#faq-section" class="nav-link">FAQ</a></li>
+                    <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
+                    <li><a href="#gallery-section" class="nav-link">Gallery</a></li>
+                    <li><a href="#blog-section" class="nav-link">Blog</a></li>
+                    <li class="has-children">
+                      <a href="#">More Links</a>
+                      <ul class="dropdown">
+                        <li><a href="#">Menu One</a></li>
+                        <li><a href="#">Menu Two</a></li>
+                        <li><a href="#">Menu Three</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                
+                <li><a href="#trainers-section" class="nav-link">Aventura</a></li>
+                <li><a href="#services-section" class="nav-link">Contribución</a></li>
+                <li><a href="#contact-section" class="nav-link">Podcast</a></li>
+                <li><a href="#contact-section" class="nav-link">Hablanos</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-8 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+
+
 	
-	
-	<div class="size1 bg0 where1-parent">
-		<!-- Coutdown -->
-		<div class="flex-c-m bg-img1 size2 where1 overlay1 where2 respon2" style="background-image: url('images/miller3.jpg');">
-			<div class="wsize2 flex-w flex-c-m cd100 js-tilt">
-				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
-					<span class="l2-txt1 p-b-9 days">35</span>
-					<span class="s2-txt4">Days</span>
-				</div>
-
-				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
-					<span class="l2-txt1 p-b-9 hours">17</span>
-					<span class="s2-txt4">Hours</span>
-				</div>
-
-				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
-					<span class="l2-txt1 p-b-9 minutes">50</span>
-					<span class="s2-txt4">Minutes</span>
-				</div>
-
-				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
-					<span class="l2-txt1 p-b-9 seconds">39</span>
-					<span class="s2-txt4">Seconds</span>
-				</div>
+		<div class="hero-wrap js-fullheight" style="background-image: url('images/maluma-WS.png');" data-stellar-background-ratio="0.5">
+		  <div class="overlay"></div>
+		  <div class="container">
+			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
+			  <div class="col-md-7 ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
+				<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Vídeo de la Semana:</h1>
+				<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Adaptación Laboral Latina en el Extranjero</h1>
+							<p class="d-flex align-items-center">
+								<a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center mr-3">
+								<span class="ion-ios-play"></span>
+							</a>
+							<span class="watch">Ver Vídeo</span>
+							</p>
+			  </div>
 			</div>
+		  </div>
 		</div>
+
+    <section class="site-section">
+      <div class="container">
+		<div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-lg-5 align-self-center mr-auto text-left heading-section mb-5">
+			<img src="images/logo_solo.png" alt="Image" height="80px" style="margin-bottom: 30px;">
+            <h2 class="text-black mb-3">Bienvenidos</h2>
+            <p class="lead">Nosotros creemos en desafiar el status-quo de los
+				latinos.</p>
+            <p>Comprendemos que a traves de compartir experiencias, conocimiento y eventos podemos mejorar e incrementar el impacto positivo que la comunidad latina se brinda y ofrece al mundo.</p>
+          </div>
+          <div class="col-lg-6 text-left heading-section mb-5"  data-aos="fade-up" data-aos-delay="100">
+            <a  data-fancybox data-ratio="1.5" href="https://vimeo.com/317571768" class="video-img">
+              <span class="play">
+                <span class="icon-play"></span>
+              </span>
+              <img src="images/latino_cut.png" alt="Image" class="img-fluid">
+            </a>
+          </div>
+      </div>
+    </section>
+	
+    <section class="site-section bg-primary trainers" >
+      <div class="container">
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-lg-6 text-center heading-section mb-5">
+			<img src="images/logo_solo.png" alt="Image" height="60px" style="margin-bottom: 30px;">
+				<h2 class="text-black mb-2">Nuestros Servicios</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non placerat nulla, id ullamcorper quam. Vivamus bibendum massa nibh, sed porttitor est condimentum sit amet.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6 mb-4 col-lg-5" data-aos="fade-up" data-aos-delay="">
+            
+            <div class="block_service">
+              <img src="images/business.svg" alt="Image mb-5">
+              <h3>Profesional</h3>
+              <p>FLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non placerat nulla, id ullamcorper quam.</p>
+            </div>
+
+          </div>
+          <div class="col-md-6 mb-4 col-lg-5" data-aos="fade-up"  data-aos-delay="100">
+            <div class="block_service">
+              <img src="images/boost.svg" alt="Image mb-5">
+              <h3>Crecimiento</h3>
+              <p>FLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non placerat nulla, id ullamcorper quam. </p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4 col-lg-5" data-aos="fade-up"  data-aos-delay="200">
+            <div class="block_service">
+              <img src="images/climber.svg" alt="Image mb-5">
+              <h3>Aventura</h3>
+              <p>FLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non placerat nulla, id ullamcorper quam. </p>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 mb-4 col-lg-5" data-aos="fade-up"  data-aos-delay="">
+            
+            <div class="block_service">
+              <img src="images/social-care.svg" alt="Image mb-5">
+              <h3>Contribución</h3>
+              <p>FLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non placerat nulla, id ullamcorper quam. </p>
+            </div>
+
+          </div>
+      </div>
+    </section>
 		
-		<!-- Form -->
-		<div class="size3 flex-col-sb flex-w p-l-75 p-r-75 p-t-45 p-b-45 respon1">
-			<div class="wrap-pic1">
-				<img src="images/icons/logo.png" alt="LOGO">
-				<span class="m1-txt2">Falling4word</span>
-			</div>
+    <section class="site-section">
+      <div class="container">
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-lg-6 text-center heading-section mb-5">
+			<img src="images/logo_solo.png" alt="Image" height="60px" style="margin-bottom: 30px;">
+				<h2 class="text-black mb-2">Profesional</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non placerat nulla, id ullamcorper quam. Vivamus bibendum massa nibh, sed porttitor est condimentum sit amet.</p>
+          </div>
+        </div>
+        <div class="row hover-1-wrap mb-5 mb-lg-0">
+          <div class="col-12">
+            <div class="row">
+              <div class="mb-4 mb-lg-0 col-lg-6 order-lg-2" data-aos="fade-right">
+                <a href="#" class="hover-1">
+                  <img src="images/Latino_bm.jpg" alt="Image" class="img-fluid">
+                </a>
+              </div>
+              <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1" data-aos="fade-left">
+                <h2 class="text-black">Desarrollo económico y de negocios</h2>
+                <p class="mb-4">FLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non placerat nulla, id ullamcorper quam.</p>
+                <p><a href="#" class="btn btn-primary">Read More</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-lg-6 text-center heading-section mb-5">
+            <div class="paws">
+              <span class="icon-paw"></span>
+            </div>
+            <h2 class="text-black mb-2">Ultimas entradas del Blog</h2>
+            <p>FLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non placerat nulla, id ullamcorper quam.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4" data-aos="fade-up"  data-aos-delay="">
+            <div class="d-lg-flex blog-entry">
+              <figure class="mr-4">
+                <a href="single.html"><img src="images/confusedtravolta.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="blog-entry-text">
+                <h3><a href="single.html">Not Ready!</a></h3>
+                <span class="post-meta mb-3 d-block">April 17, 2019</span>
+                <p>FLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non placerat nulla, id ullamcorper quam.</p>
+                <p><a href="#" class="">Read More..</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4" data-aos="fade-up"  data-aos-delay="100">
+            <div class="d-lg-flex blog-entry">
+              <figure class="mr-4">
+                <a href="single.html"><img src="images/confusedtravolta.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="blog-entry-text">
+                <h3><a href="single.html">Not Ready!</a></h3>
+                <span class="post-meta mb-3 d-block">April 17, 2019</span>
+                <p>FLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non placerat nulla, id ullamcorper quam.</p>
+                <p><a href="#" class="">Read More..</a></p>
+              </div>
+            </div>
+          </div>
 
-			<div class="p-t-50 p-b-60">
-				<p class="m1-txt1 p-b-36">
-					Falling4Word is <span class="m1-txt2">Coming Soon</span>, follow us for update now!
-				</p>
+          <div class="col-md-6 mb-4" data-aos="fade-up"  data-aos-delay="">
+            <div class="d-lg-flex blog-entry">
+              <figure class="mr-4">
+                <a href="single.html"><img src="images/confusedtravolta.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="blog-entry-text">
+                <h3><a href="single.html">Not Ready!</a></h3>
+                <span class="post-meta mb-3 d-block">April 17, 2019</span>
+                <p>FLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non placerat nulla, id ullamcorper quam.</p>
+                <p><a href="#" class="">Read More..</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4" data-aos="fade-up"  data-aos-delay="100">
+            <div class="d-lg-flex blog-entry">
+              <figure class="mr-4">
+                <a href="single.html"><img src="images/confusedtravolta.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="blog-entry-text">
+                <h3><a href="single.html">Not Ready</a></h3>
+                <span class="post-meta mb-3 d-block">April 17, 2019</span>
+                <p>FLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non placerat nulla, id ullamcorper quam.</p>
+                <p><a href="#" class="">Read More..</a></p>
+              </div>
+            </div>
+          </div>
 
-				<form class="contact100-form validate-form">
-					<div class="wrap-input100 m-b-10 validate-input" data-validate = "Name is required">
-						<input class="s2-txt1 placeholder0 input100" type="text" name="name" placeholder="Your Name">
-						<span class="focus-input100"></span>
-					</div>
-
-					<div class="wrap-input100 m-b-20 validate-input" data-validate = "Email is required: ex@abc.xyz">
-						<input class="s2-txt1 placeholder0 input100" type="text" name="email" placeholder="Email Address">
-						<span class="focus-input100"></span>
-					</div>
-
-					<div class="w-full">
-						<button class="flex-c-m s2-txt2 size4 bg1 bor1 hov1 trans-04">
-							Subscribe
-						</button>
-					</div>
-				</form>
-
-				<p class="s2-txt3 p-t-18">
-					And don’t worry, we hate spam too! You can unsubcribe at anytime.
-				</p>
-			</div>
-
-			<div class="flex-w">
-			</div>
-		</div>
-	</div>
+        </div>
+      </div>
+    </section>
 
 
+    <section class="site-section">
+      <div class="container">
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-lg-6 text-center heading-section mb-5">
+			<img src="images/logo_solo.png" alt="Image" height="60px" style="margin-bottom: 30px;">
+				<h2 class="text-black mb-2">Crecimiento</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non placerat nulla, id ullamcorper quam. Vivamus bibendum massa nibh, sed porttitor est condimentum sit amet.</p>
+          </div>
+        </div>
+        <div class="row hover-1-wrap mb-5 mb-lg-0">
+          <div class="col-12">
+            <div class="row">
+              <div class="mb-4 mb-lg-0 col-lg-6 order-lg-2" data-aos="fade-right">
+                <a href="#" class="hover-1">
+                  <img src="images/Latino_bm.jpg" alt="Image" class="img-fluid">
+                </a>
+              </div>
+              <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1" data-aos="fade-left">
+                <h2 class="text-black">Desarrollo económico y de negocios</h2>
+                <p class="mb-4">FLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non placerat nulla, id ullamcorper quam.</p>
+                <p><a href="#" class="btn btn-primary">Read More</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	
 
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 2019,
-			endtimeMonth: 11,
-			endtimeDate: 4,
-			endtimeHours: 16,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "America/New_York" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
+    <section class="site-section">
+      <div class="container">
+        <div class="row justify-content-center" data-aos="fade-up">
+          <div class="col-lg-6 text-center heading-section mb-5">
+			<img src="images/logo_solo.png" alt="Image" height="60px" style="margin-bottom: 30px;">
+				<h2 class="text-black mb-2">Podcast</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non placerat nulla, id ullamcorper quam. Vivamus bibendum massa nibh, sed porttitor est condimentum sit amet.</p>
+          
+          </div>
 
-</body>
+        </div>
+<img src="images/Podcast.png" alt="Image" height="400px" style="margin-bottom: 30px;">
+      </div>
+    </section>
+    
+    <section class="" id="contact-section">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-lg-6 bg-primary">
+            <form action="#" class="p-5 contact-form">
+              
+              <h2 class="h4 mb-5 heading">Contact Form</h2> 
+
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  <label for="email">Email</label> 
+                  <input type="email" id="email" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  <label for="subject">Subject</label> 
+                  <input type="subject" id="subject" class="form-control">
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label for="message">Message</label> 
+                  <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" value="Send Message" class="btn btn-dark btn-md text-white">
+                </div>
+              </div>
+
+  
+            </form>
+          </div>
+          <div class="col-lg-6 bg-secondary">
+            <div class="row justify-content-center align-items-center h-100">
+              <div class="col-lg-6 text-center heading-section mb-5 align-self-center">
+                <div class="paws">
+                  <span class="icon-paw"></span>
+                </div>
+                <h2 class="text-white mb-5">Contact Us</h2>
+                <ul class="list-unstyled text-left address">
+                  <li>
+                    <span class="d-block">Address:</span>
+                    <p>Melbourne St,South Birbane 4101 Austraila</p>
+                  </li>
+                  <li>
+                    <span class="d-block">Phone:</span>
+                    <p>+(000) 123 4567 89</p>
+                  </li>
+                  <li>
+                    <span class="d-block">Email:</span>
+                    <p>info@yourdomain.com</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-5">
+                <h2 class="footer-heading mb-4">About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+              </div>
+              <div class="col-md-3 ml-auto">
+                <h2 class="footer-heading mb-4">Quick Links</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#about-section" class="smoothscroll">About Us</a></li>
+                  <li><a href="#trainers-section" class="smoothscroll">Trainers</a></li>
+                  <li><a href="#services-section" class="smoothscroll">Services</a></li>
+                  <li><a href="#testimonials-section" class="smoothscroll">Testimonials</a></li>
+                  <li><a href="#contact-section" class="smoothscroll">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <h2 class="footer-heading mb-4">Follow Us</h2>
+                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
+            <form action="#" method="post" class="footer-subscribe">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-primary text-black" type="button" id="button-addon2">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <p class="copyright"><small>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></small></p>
+        
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+
+  
+  <script src="js/main.js"></script>
+
+  
+  </body>
 </html>
